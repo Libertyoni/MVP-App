@@ -1,0 +1,99 @@
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ecf0f3;
+  font-size: 106%;
+}
+.card {
+  padding: 2em;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 420px;
+  margin: 1em;
+  background-color: #ecf0f3;
+  box-shadow: -0.5rem -0.5rem 0.75rem #fff,
+    0.3125rem 0.3125rem 0.75rem rgba(0, 0, 0, 0.16);
+}
+.searchbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  margin: 0.5em;
+  border-radius: 50%;
+  border: none;
+  height: 46px;
+  width: 46px;
+  outline: none;
+  background-color: #ecf0f3;
+  box-shadow: -0.5rem -0.5rem 0.75rem #fff,
+    0.3125rem 0.3125rem 0.75rem rgba(0, 0, 0, 0.16);
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+button:active {
+  box-shadow: 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+  color: #000000;
+}
+input[type="text"] {
+  border: none;
+  outline: none;
+  padding: 0.4em 1em;
+  border-radius: 24px;
+  background-color: #ecf0f3;
+  box-shadow: -0.5rem -0.5rem 0.75rem #fff,
+    0.3125rem 0.3125rem 0.75rem rgba(0, 0, 0, 0.16);
+  font-family: inherit;
+  font-size: 105%;
+  width: calc(100% - 100px);
+}
+h1.temp {
+  margin: 0;
+  margin-bottom: 0.5em;
+}
+.humidity {
+  padding: 2.5% 0;
+}
+.humidity,
+.wind-speed {
+  margin-left: 0.5rem;
+}
+.description {
+  text-transform: capitalize;
+  margin-left: 1rem;
+}
+.morphism {
+  background-color: #ecf0f3;
+  box-shadow: -0.5rem -0.5rem 0.75rem #fff,
+    0.3125rem 0.3125rem 0.75rem rgba(0, 0, 0, 0.16);
+
+  border-radius: 0.4em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.description-left {
+  padding: 1em 0.5em;
+}
+.description-right {
+  width: 50%;
+  height: 100;
+  border-radius: 0.4em;
+}
+.description-content {
+  display: flex;
+  align-items: center;
+  text-align: left;
