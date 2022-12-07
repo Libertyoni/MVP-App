@@ -97,3 +97,46 @@ h1.temp {
   display: flex;
   align-items: center;
   text-align: left;
+
+  width: 100%;
+  padding: 0;
+}
+.weather-contents.loading {
+  visibility: hidden;
+  background: url("images/loader.gif");
+}
+.icon {
+  height: 60px;
+  width: 56px;
+  background: #bbb;
+  border-radius: 50%;
+}
+#notification {
+  background-color: #ecf0f3;
+  margin-top: 2%;
+  padding: 1.5%;
+  text-align: center;
+  color: red;
+  font-size: 1.2em;
+  /* display: none; */
+  font-weight: bold;
+}
+/* .notification {
+  visibility: hidden;
+} */
+#preloader {
+  background-size: 5%;
+  background-image: #ecf0f3;
+  max-height: 160px;
+  max-width: 450px;
+  position: fixed;
+  z-index: 100;
+  padding: 40px 0;
+  margin-top: 120px;
+  border-radius: 0.4em;
+  position: relative;
+}
+.date-time {
+  display: flex;
+  justify-content: space-between;
+}
