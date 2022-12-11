@@ -103,7 +103,7 @@ h1.temp {
 }
 .weather-contents.loading {
   visibility: hidden;
-  background: url("images/loader.gif");
+  background: url("/images/loader.gif");
 }
 .icon {
   height: 60px;
